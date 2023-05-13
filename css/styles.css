@@ -9,6 +9,14 @@ body {
 img {
   max-width: 100%;
 }
+a:link,
+a:visited {
+  color: var(--d-color-accent);
+}
+a:active,
+a:hover {
+  color: var(--d-color-blueLighter);
+}
 
 #mainNav {
   min-height: 3.5rem;
@@ -17,7 +25,7 @@ img {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: var(--d-color-primary);
+  color: var(--d-color-accent);
   border: 1px solid var(--d-color-primary);
 }
 #mainNav .navbar-toggler:focus {
@@ -74,15 +82,15 @@ img {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: var(--d-color-primary);
+    color: var(--d-color-accent);
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: var(--d-color-primary);
+    color: var(--d-color-accent);
     outline: none;
-    border-bottom: 0.25rem solid var(--d-color-primary);
+    border-bottom: 0.25rem solid var(--d-color-accent);
   }
 }
 
@@ -162,7 +170,7 @@ img {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid var(--d-color-primary);
+    border-left: 0.5rem solid var(--d-color-accent);
   }
 }
 .projects-section .project-text {
@@ -202,7 +210,7 @@ img {
   border-bottom: 0.25rem solid var(--d-color-primary);
 }
 .contact-section .card-icon {
-  color: var(--d-color-blueLight);
+  color: var(--d-color-accent);
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -211,7 +219,7 @@ img {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  opacity: 1;
+  opacity: 0.5;
   border-color: var(--d-color-primary);
   border-width: 0.25rem;
   width: 3rem;

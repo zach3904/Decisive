@@ -1,9 +1,12 @@
 :root {
-    --d-color-primary: #496575;
+    --d-color-blueDull: #496575;
     --d-color-blueDark: #283891;
     --d-color-blueMedium: #3463af;
     --d-color-blueLight: #598eca;
     --d-color-blueLighter: #8dd8f8;
+
+    --d-color-primary: var(--d-color-blueDull);
+    --d-color-accent: var(--d-color-blueLight);
 
     --d-fontFamily-montserrat: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
